@@ -8,7 +8,7 @@ tags:
   - gospels
 ---
 
-# 예수의 생애 — Timeline Plugin (1부)
+# 예수의 생애 — Timeline Plugin (1부) 
 
 [Timelines (Revamped)](https://github.com/Seanlowe/obsidian-timelines) 플러그인이 vault 안의 모든 `&lt;div class='ob-timelines'&gt;` 사건을 스캔해서, 파일 tags 가 매칭되는 것을 모아 시각화합니다.
 
