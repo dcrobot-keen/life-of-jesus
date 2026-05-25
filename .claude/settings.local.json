@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir d:/code/his-kingdom/content/data 2>&1 && ls d:/code/his-kingdom/content/data)",
+      "PowerShell($j = Get-Content d:\\\\code\\\\his-kingdom\\\\content\\\\data\\\\life-of-jesus.json -Raw | ConvertFrom-Json; $events = $j.parts[0].events; \"events: $\\($events.Count\\)\"; \"scriptures total: $\\(\\($events | ForEach-Object { $_.scriptures.Count } | Measure-Object -Sum\\).Sum\\)\"; \"events with comparison: $\\(\\($events | Where-Object { $_.comparison }\\).Count\\)\"; \"places mentioned: $\\(\\($events | ForEach-Object { $_.places.id } | Sort-Object -Unique\\) -join ', '\\)\")",
+      "Bash(node -e \"const j=require\\('d:/code/his-kingdom/content/data/life-of-jesus.json'\\); const ev=j.parts[0].events; console.log\\('parts:', j.parts.length\\); console.log\\('events:', ev.length\\); console.log\\('scriptures total:', ev.reduce\\(\\(a,e\\)=>a+e.scriptures.length,0\\)\\); console.log\\('with comparison:', ev.filter\\(e=>e.comparison\\).length\\); console.log\\('places used:', [...new Set\\(ev.flatMap\\(e=>e.places.map\\(p=>p.id||p\\)\\)\\)].join\\(', '\\)\\); console.log\\('upcoming parts:', j.upcomingParts.length\\);\")",
+      "Bash(node -e ' *)"
+    ],
+    "additionalDirectories": [
+      "d:\\code\\his-kingdom\\content"
+    ]
+  }
+}

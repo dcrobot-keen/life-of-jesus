@@ -1,0 +1,1438 @@
+{
+  "title": "예수의 생애",
+  "description": "신약 4복음서를 시간 순으로 엮은 예수 그리스도의 행적 타임라인",
+  "scriptureBase": "KoreanRevisedVersion",
+  "note": "연대는 학자들 사이의 통상적 추정치이며 절대적인 값은 아닙니다. 복음서 평행구절의 정렬은 Robertson·Aland 등의 통상적 하모니를 따랐습니다.",
+
+  "books": {
+    "matthew": { "ko": "마태복음", "short": "마" },
+    "mark":    { "ko": "마가복음", "short": "막" },
+    "luke":    { "ko": "누가복음", "short": "눅" },
+    "john":    { "ko": "요한복음", "short": "요" }
+  },
+
+  "parts": [
+    {
+      "id": "part1",
+      "number": 1,
+      "title": "탄생과 유년기",
+      "period": "BC 6 ~ AD 8",
+      "events": [
+        {
+          "id": "1.1",
+          "title": "서문과 족보",
+          "period": "영원 / 창세 이전 — 사역 시작 전",
+          "places": [],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 1, "verseStart": 1, "verseEnd": 17 }, "title": "마태의 족보",
+              "summary": "아브라함 → 다윗 → 그리스도. 14대씩 세 묶음으로 정돈된 왕적 계보(요셉을 통한 법적 혈통)." },
+            { "gospel": "luke", "ref": { "chapter": 3, "verseStart": 23, "verseEnd": 38 }, "title": "누가의 족보",
+              "summary": "그리스도 → 아담 → 하나님으로 거꾸로 거슬러 올라가는 보편적 계보(마리아 쪽 자연 혈통이라는 해석)." },
+            { "gospel": "john", "ref": { "chapter": 1, "verseStart": 1, "verseEnd": 18 }, "title": "요한의 서문",
+              "summary": "\"태초에 말씀이 계시니라\". 선재(先在)하신 로고스로서의 그리스도." }
+          ],
+          "comparison": "마태는 14·14·14 인공적 구조로 메시아의 정통성을, 누가는 아담까지 거슬러 인류 전체를 향한 보편성을 강조. 요한은 족보 대신 신학적 선언으로 시작."
+        },
+        {
+          "id": "1.2",
+          "title": "세례 요한의 잉태 예고",
+          "period": "BC 6년경",
+          "places": [{ "id": "예루살렘", "detail": "성전" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 1, "verseStart": 5, "verseEnd": 25 },
+              "summary": "제사장 사가랴가 분향할 때 가브리엘이 나타남. 의심한 사가랴는 벙어리가 됨." }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "수태고지 (마리아에게)",
+          "period": "BC 6년경 (요한 잉태 6개월 후)",
+          "places": [{ "id": "나사렛" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 1, "verseStart": 26, "verseEnd": 38 },
+              "summary": "가브리엘이 마리아에게. \"은혜를 받은 자여 평안할지어다 ... 보라 네가 잉태하여 아들을 낳으리니 그 이름을 예수라 하라\"." }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "마리아의 엘리사벳 방문",
+          "period": "BC 6년경",
+          "places": [{ "id": "엔케렘", "detail": "유다 산골 (전승)" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 1, "verseStart": 39, "verseEnd": 56 },
+              "summary": "엘리사벳의 태아가 뛰놂. 마리아의 찬가(Magnificat): \"내 영혼이 주를 찬양하며\"." }
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "세례 요한의 출생",
+          "period": "BC 6년경",
+          "places": [{ "id": "엔케렘", "detail": "유다 산골 (전승)" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 1, "verseStart": 57, "verseEnd": 80 },
+              "summary": "사가랴의 입이 열리고 베네딕투스(Benedictus)를 찬송함: \"주 이스라엘의 하나님을 찬송하리로다\"." }
+          ]
+        },
+        {
+          "id": "1.6",
+          "title": "예수의 탄생",
+          "period": "BC 6 ~ 4년 (헤롯 사망 직전)",
+          "places": [{ "id": "베들레헴" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 1, "verseStart": 18, "verseEnd": 25 }, "title": "요셉의 관점",
+              "summary": "요셉의 꿈에 천사가 나타나 \"예수\"라 이름하라 명령. \"임마누엘\" 예언의 성취." },
+            { "gospel": "luke", "ref": { "chapter": 2, "verseStart": 1, "verseEnd": 7 }, "title": "마리아의 관점",
+              "summary": "가이사 아구스도의 호적 명령으로 베들레헴 행. 여관에 거할 곳이 없어 구유에 누이심." }
+          ],
+          "comparison": "마태는 요셉의 꿈과 침묵의 순종에 초점, 누가는 마리아·구유·낮은 자리에 초점. 마가와 요한은 탄생 기사를 생략하고 사역 시작점부터 기술."
+        },
+        {
+          "id": "1.7",
+          "title": "목자들의 경배",
+          "period": "탄생 당일 밤",
+          "places": [{ "id": "베들레헴", "detail": "들녘" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 2, "verseStart": 8, "verseEnd": 20 },
+              "summary": "천사들의 합창(\"지극히 높은 곳에서는 하나님께 영광\"). 목자들이 구유의 아기를 방문." }
+          ]
+        },
+        {
+          "id": "1.8",
+          "title": "할례와 성전 봉헌",
+          "period": "출생 8일 / 40일 째",
+          "places": [{ "id": "예루살렘", "detail": "성전" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 2, "verseStart": 21, "verseEnd": 38 },
+              "summary": "시므온의 예언(\"이 아이는 ... 비방을 받는 표적이 되리니\"). 여선지 안나의 증언." }
+          ]
+        },
+        {
+          "id": "1.9",
+          "title": "동방박사의 방문",
+          "period": "BC 5 ~ 4년 (탄생 후 수개월 ~ 2년 이내)",
+          "places": [{ "id": "베들레헴" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 2, "verseStart": 1, "verseEnd": 12 },
+              "summary": "별을 따라온 동방 박사들. 황금·유향·몰약. 헤롯의 거짓 협조와 음모." }
+          ]
+        },
+        {
+          "id": "1.10",
+          "title": "애굽 피난과 영아 학살",
+          "period": "BC 5 ~ 4년",
+          "places": [{ "id": "애굽" }, { "id": "나사렛" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 2, "verseStart": 13, "verseEnd": 23 },
+              "summary": "요셉의 두 번째 꿈으로 애굽 피난. 헤롯의 영아 학살. \"라마에서 슬퍼하며 크게 통곡하는 소리\". 귀환 후 나사렛 정착." }
+          ],
+          "comparison": "누가는 봉헌 직후 곧장 나사렛으로 귀환(눅 2:39)했다고 서술 — 애굽 피난과 영아 학살을 생략. 두 기사의 연결 순서는 학자들의 논쟁 주제이며, 누가가 핵심 줄거리만 남긴 것으로 보는 설이 다수."
+        },
+        {
+          "id": "1.11",
+          "title": "12살의 예수, 성전에서",
+          "period": "AD 7 ~ 8년경",
+          "places": [{ "id": "예루살렘", "detail": "성전" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 2, "verseStart": 41, "verseEnd": 52 },
+              "summary": "유월절 후 부모와 떨어져 성전에서 학자들과 문답. \"내가 내 아버지 집에 있어야 될 줄을 알지 못하셨나이까\". 이후 30세까지의 침묵기." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "part2",
+      "number": 2,
+      "title": "공생애의 시작",
+      "period": "AD 26 ~ 27",
+      "events": [
+        {
+          "id": "2.1",
+          "title": "세례 요한의 사역",
+          "period": "AD 26년경",
+          "places": [{ "id": "광야", "detail": "유다 광야" }, { "id": "요단강" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 3, "verseStart": 1, "verseEnd": 12 }, "summary": "회개의 세례 선포. \"독사의 자식들아\". 메시아 예고." },
+            { "gospel": "mark", "ref": { "chapter": 1, "verseStart": 1, "verseEnd": 8 }, "summary": "복음의 시작. 사40:3 인용. \"나보다 능력 많으신 이가\"." },
+            { "gospel": "luke", "ref": { "chapter": 3, "verseStart": 1, "verseEnd": 18 }, "summary": "디베료 황제 15년이라는 역사적 정초. 무리·세리·군인 각자에 대한 윤리적 권면." },
+            { "gospel": "john", "ref": { "chapter": 1, "verseStart": 19, "verseEnd": 28 }, "summary": "예루살렘 사절의 신문(\"네가 누구냐\"). \"나는 ... 광야에서 외치는 자의 소리\"." }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "예수의 세례",
+          "period": "AD 26년경",
+          "places": [{ "id": "요단강" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 3, "verseStart": 13, "verseEnd": 17 }, "summary": "요한의 거절과 \"모든 의를 이루는 것이 합당하니라\". 하늘의 음성: \"이는 내 사랑하는 아들이요\"." },
+            { "gospel": "mark", "ref": { "chapter": 1, "verseStart": 9, "verseEnd": 11 }, "summary": "성령이 비둘기같이 임함. 짧고 강한 신적 인증." },
+            { "gospel": "luke", "ref": { "chapter": 3, "verseStart": 21, "verseEnd": 23 }, "summary": "기도 중에 하늘이 열림. \"예수께서 ... 삼십 세쯤 되어\" 사역 시작." }
+          ],
+          "comparison": "세 공관복음 공통. 요한복음은 세례 사건은 묘사하지 않고 세례 요한의 증언으로 갈음(요 1:32-34)."
+        },
+        {
+          "id": "2.3",
+          "title": "광야의 시험",
+          "period": "AD 26년경 (세례 직후 40일)",
+          "places": [{ "id": "광야", "detail": "유다 광야" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 4, "verseStart": 1, "verseEnd": 11 }, "summary": "돌→떡 / 성전 꼭대기 / 천하만국. 신 8·6장 인용으로 거절." },
+            { "gospel": "mark", "ref": { "chapter": 1, "verseStart": 12, "verseEnd": 13 }, "summary": "간결한 두 절: 들짐승·천사. 마가 특유의 응축." },
+            { "gospel": "luke", "ref": { "chapter": 4, "verseStart": 1, "verseEnd": 13 }, "summary": "세 시험의 순서가 마태와 다름(떡→나라→성전). 마지막에 \"얼마동안 떠나니라\"." }
+          ],
+          "comparison": "마태는 절정이 \"하나님을 경배하라\", 누가는 절정이 예루살렘 성전. 신학적 강조의 차이."
+        },
+        {
+          "id": "2.4",
+          "title": "첫 제자들의 부름 (요단 강가)",
+          "period": "AD 26년경",
+          "places": [{ "id": "요단강" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 1, "verseStart": 35, "verseEnd": 51 },
+              "summary": "세례 요한의 두 제자(안드레와 또 하나)→ 시몬(베드로) → 빌립 → 나다나엘. \"보라 세상 죄를 지고 가는 하나님의 어린 양이로다\"." }
+          ],
+          "comparison": "이는 갈릴리에서의 정식 부르심(마4:18-22, 막1:16-20) 이전의 첫 만남으로 보는 것이 통설."
+        },
+        {
+          "id": "2.5",
+          "title": "가나 혼인잔치 — 첫 표적",
+          "period": "AD 27년경",
+          "places": [{ "id": "가나", "detail": "갈릴리 가나" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 2, "verseStart": 1, "verseEnd": 11 },
+              "summary": "물을 포도주로. 어머니의 부탁과 \"여자여\" 호칭. \"이 첫 표적을 ... 행하여 ... 자기의 영광을 나타내시매\"." }
+          ]
+        },
+        {
+          "id": "2.6",
+          "title": "가버나움 첫 방문",
+          "period": "AD 27년경",
+          "places": [{ "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 2, "verseStart": 12, "verseEnd": 12 },
+              "summary": "어머니와 형제, 제자들과 함께 잠시 머무름. 본격적 갈릴리 사역의 사전 단계." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "part3",
+      "number": 3,
+      "title": "초기 유대 사역",
+      "period": "AD 27",
+      "events": [
+        {
+          "id": "3.1",
+          "title": "첫 성전 정화 (유월절)",
+          "period": "AD 27년 봄",
+          "places": [{ "id": "예루살렘", "detail": "성전" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 2, "verseStart": 13, "verseEnd": 25 },
+              "summary": "노끈으로 채찍을 만들어 환전상·짐승 쫓아냄. \"이 성전을 헐라 내가 사흘 동안에 일으키리라\". 표적을 보고 믿은 무리에 대한 거리두기." }
+          ],
+          "comparison": "수난주간의 두 번째 성전 정화(8.4)와 별개의 사건으로 보는 것이 다수설."
+        },
+        {
+          "id": "3.2",
+          "title": "니고데모와의 밤 대화",
+          "period": "AD 27년 봄",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 3, "verseStart": 1, "verseEnd": 21 },
+              "summary": "거듭남 — \"사람이 물과 성령으로 나지 아니하면 ... \". 들린 모세의 놋뱀과 십자가 예표. \"하나님이 세상을 이처럼 사랑하사\"." }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "세례 요한의 마지막 증거",
+          "period": "AD 27년 여름",
+          "places": [{ "id": "요단강", "detail": "애논·살림 근처" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 3, "verseStart": 22, "verseEnd": 36 },
+              "summary": "\"그는 흥하여야 하겠고 나는 쇠하여야 하리라\". 신랑과 신랑의 친구 비유." }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "세례 요한의 투옥",
+          "period": "AD 27년경",
+          "places": [{ "id": "마케루스", "detail": "헤롯 안디바의 요새 (요세푸스)" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 4, "verseStart": 12, "verseEnd": 12 }, "summary": "요한이 잡힌 후 갈릴리로 물러가심 — 사역의 전환점." },
+            { "gospel": "mark", "ref": { "chapter": 1, "verseStart": 14, "verseEnd": 14 }, "summary": "동일." },
+            { "gospel": "luke", "ref": { "chapter": 3, "verseStart": 19, "verseEnd": 20 }, "summary": "헤로디아 문제로 인한 요한의 책망과 투옥 배경 명시." }
+          ]
+        },
+        {
+          "id": "3.5",
+          "title": "사마리아 여인 (수가의 우물)",
+          "period": "AD 27년경",
+          "places": [{ "id": "사마리아", "detail": "수가 / 야곱의 우물" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 4, "verseStart": 1, "verseEnd": 42 },
+              "summary": "\"내가 줄 물을 마시는 자는 영원히 목마르지 아니하리니\". 다섯 남편의 폭로, \"예배는 ... 영과 진리로\". 사마리아 동네의 회심." }
+          ]
+        },
+        {
+          "id": "3.6",
+          "title": "갈릴리 귀환",
+          "period": "AD 27년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 4, "verseStart": 12, "verseEnd": 17 }, "summary": "스불론·납달리에 임한 빛(사9:1-2 인용). \"천국이 가까이 왔느니라\"." },
+            { "gospel": "mark", "ref": { "chapter": 1, "verseStart": 14, "verseEnd": 15 }, "summary": "\"때가 찼고 하나님의 나라가 가까웠으니 회개하고 복음을 믿으라\"." },
+            { "gospel": "luke", "ref": { "chapter": 4, "verseStart": 14, "verseEnd": 15 }, "summary": "성령의 권능으로 회당마다 가르치심." },
+            { "gospel": "john", "ref": { "chapter": 4, "verseStart": 43, "verseEnd": 45 }, "summary": "\"선지자가 고향에서는 높임을 받지 못한다\"는 자기 인용." }
+          ]
+        },
+        {
+          "id": "3.7",
+          "title": "왕의 신하의 아들 치유 (두 번째 표적)",
+          "period": "AD 27년경",
+          "places": [{ "id": "가나", "detail": "갈릴리 가나" }, { "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 4, "verseStart": 46, "verseEnd": 54 },
+              "summary": "\"가서 너의 아들이 살았다\". 원격 치유 — 같은 시각에 가버나움의 아들 회복. 가나에서 행한 두 번째 표적." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "part4",
+      "number": 4,
+      "title": "갈릴리 사역 1기",
+      "period": "AD 27 ~ 28",
+      "events": [
+        {
+          "id": "4.1",
+          "title": "나사렛 회당의 첫 설교와 배척",
+          "period": "AD 27년경",
+          "places": [{ "id": "나사렛", "detail": "회당" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 4, "verseStart": 16, "verseEnd": 30 },
+              "summary": "사 61:1-2 낭독, \"이 글이 너희 귀에 응하였느니라\". 동족의 분노 — 벼랑 끝까지 내몰림." }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "가버나움 정착",
+          "period": "AD 27년경",
+          "places": [{ "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 4, "verseStart": 13, "verseEnd": 17 },
+              "summary": "이방의 갈릴리에 임한 빛. 사역의 거점 이동." }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "어부 네 사람의 부름",
+          "period": "AD 27년경",
+          "places": [{ "id": "갈릴리 호수", "detail": "가버나움 근방 호숫가" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 4, "verseStart": 18, "verseEnd": 22 }, "summary": "베드로·안드레, 야고보·요한. \"사람을 낚는 어부가 되게 하리라\"." },
+            { "gospel": "mark", "ref": { "chapter": 1, "verseStart": 16, "verseEnd": 20 }, "summary": "마태와 거의 동일." },
+            { "gospel": "luke", "ref": { "chapter": 5, "verseStart": 1, "verseEnd": 11 }, "summary": "기적적 어획 — \"이제 후로는 사람을 취하리라\". 베드로의 \"나를 떠나소서, 죄인이로소이다\"." }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "가버나움 회당의 귀신 들린 자",
+          "period": "AD 27년경",
+          "places": [{ "id": "가버나움", "detail": "회당" }],
+          "scriptures": [
+            { "gospel": "mark", "ref": { "chapter": 1, "verseStart": 21, "verseEnd": 28 }, "summary": "권세 있는 가르침에 이어 더러운 귀신 축출. 갈릴리 전역에 명성 퍼짐." },
+            { "gospel": "luke", "ref": { "chapter": 4, "verseStart": 31, "verseEnd": 37 }, "summary": "마가와 평행." }
+          ]
+        },
+        {
+          "id": "4.5",
+          "title": "베드로의 장모와 저녁 치유",
+          "period": "AD 27년경 (안식일 저녁)",
+          "places": [{ "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 8, "verseStart": 14, "verseEnd": 17 }, "summary": "사 53:4 인용 — \"우리 연약한 것을 친히 담당하시고\"." },
+            { "gospel": "mark", "ref": { "chapter": 1, "verseStart": 29, "verseEnd": 34 }, "summary": "온 동네가 문 앞에 모임." },
+            { "gospel": "luke", "ref": { "chapter": 4, "verseStart": 38, "verseEnd": 41 }, "summary": "열병을 꾸짖으심. 귀신들이 \"하나님의 아들\"이라 외침을 막으심." }
+          ]
+        },
+        {
+          "id": "4.6",
+          "title": "첫 갈릴리 순회",
+          "period": "AD 27년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 4, "verseStart": 23, "verseEnd": 25 }, "summary": "수리아·데가볼리·요단 동편까지 명성 확산." },
+            { "gospel": "mark", "ref": { "chapter": 1, "verseStart": 35, "verseEnd": 39 }, "summary": "새벽 한적한 곳에서 기도. \"우리가 다른 가까운 마을들로 가자\"." },
+            { "gospel": "luke", "ref": { "chapter": 4, "verseStart": 42, "verseEnd": 44 }, "summary": "유대 회당에서도 전파." }
+          ]
+        },
+        {
+          "id": "4.7",
+          "title": "나병환자의 치유",
+          "period": "AD 27년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 8, "verseStart": 1, "verseEnd": 4 }, "summary": "손을 대어 만지심 — 율법상 부정한 자에게 깨끗함이 옮겨감." },
+            { "gospel": "mark", "ref": { "chapter": 1, "verseStart": 40, "verseEnd": 45 }, "summary": "민망히 여기시고. 침묵 명령에도 소문이 퍼져 한적한 곳에 머무심." },
+            { "gospel": "luke", "ref": { "chapter": 5, "verseStart": 12, "verseEnd": 16 }, "summary": "기도를 위해 한적한 곳으로 물러가심." }
+          ]
+        },
+        {
+          "id": "4.8",
+          "title": "가버나움의 중풍병자 — 죄 사함 권세",
+          "period": "AD 28년경",
+          "places": [{ "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 9, "verseStart": 1, "verseEnd": 8 }, "summary": "\"네 죄 사함을 받았느니라\". 인자의 권세 선언." },
+            { "gospel": "mark", "ref": { "chapter": 2, "verseStart": 1, "verseEnd": 12 }, "summary": "지붕을 뜯어 침상을 내림. 서기관들의 마음의 의심을 아심." },
+            { "gospel": "luke", "ref": { "chapter": 5, "verseStart": 17, "verseEnd": 26 }, "summary": "모든 동네에서 모인 바리새인과 율법사들 — 충돌의 본격적 신호탄." }
+          ]
+        },
+        {
+          "id": "4.9",
+          "title": "마태(레위)의 부름과 세리들의 잔치",
+          "period": "AD 28년경",
+          "places": [{ "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 9, "verseStart": 9, "verseEnd": 17 }, "summary": "세관에 앉은 마태. 새 포도주는 새 부대에." },
+            { "gospel": "mark", "ref": { "chapter": 2, "verseStart": 13, "verseEnd": 22 }, "summary": "\"건강한 자에게는 의원이 쓸데없고 ...\"." },
+            { "gospel": "luke", "ref": { "chapter": 5, "verseStart": 27, "verseEnd": 39 }, "summary": "옛 포도주를 마시고 새 것을 구하지 않는다는 부가절." }
+          ],
+          "comparison": "마태복음은 자신을 \"마태\"로, 마가·누가는 \"레위\"로 부름 — 한 사람의 두 이름(아람어·히브리어). 1인칭 저자의 자기 회상이라 마태가 자신의 부르심을 짧고 담담하게 적은 셈."
+        },
+        {
+          "id": "4.10",
+          "title": "베데스다 못의 38년 된 병자 (유대 절기)",
+          "period": "AD 28년 봄 (절기 미상, 유월절일 가능성)",
+          "places": [{ "id": "예루살렘", "detail": "베데스다 못 / 양문" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 5, "verseStart": 1, "verseEnd": 47 },
+              "summary": "안식일 치유로 인한 첫 본격적 충돌. \"내 아버지께서 이제까지 일하시니 나도 일한다\". 아들의 권세·증인들에 대한 긴 강화." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "part5",
+      "number": 5,
+      "title": "갈릴리 사역 2기 — 산상수훈",
+      "period": "AD 28 ~ 29",
+      "events": [
+        {
+          "id": "5.1",
+          "title": "안식일 논쟁 — 밀밭과 손 마른 자",
+          "period": "AD 28년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 12, "verseStart": 1, "verseEnd": 14 }, "title": "밀밭과 손 마른 자",
+              "summary": "다윗의 진설병 인용으로 밀밭 논쟁(1-8) → 회당에서 손 마른 자 치유(9-14). \"인자는 안식일의 주인\". 끝에 살해 음모." },
+            { "gospel": "mark", "ref": { "chapter": 2, "verseStart": 23, "verseEnd": 28 }, "title": "밀밭",
+              "summary": "\"안식일은 사람을 위하여 있는 것이요 사람이 안식일을 위하여 있는 것이 아니니\"." },
+            { "gospel": "mark", "ref": { "chapter": 3, "verseStart": 1, "verseEnd": 6 }, "title": "손 마른 자",
+              "summary": "회당에서 \"마음의 완악함을 탄식하사\". 바리새인과 헤롯당이 죽이기를 결의 — 1차 충돌의 분기점." },
+            { "gospel": "luke", "ref": { "chapter": 6, "verseStart": 1, "verseEnd": 11 },
+              "summary": "두 논쟁 모두 — 밀밭(1-5)과 손 마른 자(6-11)." }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "호숫가의 무리와 12 사도 선택",
+          "period": "AD 28년경",
+          "places": [{ "id": "갈릴리 호수" }],
+          "scriptures": [
+            { "gospel": "mark", "ref": { "chapter": 3, "verseStart": 7, "verseEnd": 19 }, "summary": "산에 올라 12 사도를 선택. 그가 원하시는 자들을 부르심." },
+            { "gospel": "luke", "ref": { "chapter": 6, "verseStart": 12, "verseEnd": 16 }, "summary": "밤이 새도록 기도 후 12명 호명." }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "산상수훈",
+          "period": "AD 28년경",
+          "places": [{ "id": "팔복산", "detail": "갈릴리 호수 북서편 산지 (전승)" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 5, "verseStart": 1, "verseEnd": 48 }, "title": "마5",
+              "summary": "팔복 / 세상의 소금과 빛 / 율법의 완성 / 분노·간음·이혼·맹세·복수·원수 사랑." },
+            { "gospel": "matthew", "ref": { "chapter": 6, "verseStart": 1, "verseEnd": 34 }, "title": "마6",
+              "summary": "구제·기도(주기도)·금식 / 두 주인 / 염려치 말라." },
+            { "gospel": "matthew", "ref": { "chapter": 7, "verseStart": 1, "verseEnd": 29 }, "title": "마7",
+              "summary": "비판 / 좁은 문 / 거짓 선지자 / 반석 위의 집. 권세 있는 자와 같이 가르치심." },
+            { "gospel": "luke", "ref": { "chapter": 6, "verseStart": 17, "verseEnd": 49 }, "title": "평지수훈 (병행)",
+              "summary": "축복과 화의 대구. 원수 사랑과 황금률. 같은 사역기 다른 자리의 동일·유사 강화로 보는 견해와, 누가가 산상수훈을 압축했다는 견해가 병존." }
+          ],
+          "comparison": "마태의 산상수훈은 9복·여섯 대조 강화·세 경건 / 천국 헌장. 누가의 평지수훈은 더 짧고 사회적 약자에 대한 화의 대조가 두드러짐."
+        },
+        {
+          "id": "5.4",
+          "title": "백부장의 종 치유",
+          "period": "AD 28년경",
+          "places": [{ "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 8, "verseStart": 5, "verseEnd": 13 }, "summary": "\"이스라엘 중 아무에게서도 이만한 믿음을 만나보지 못하였노라\"." },
+            { "gospel": "luke", "ref": { "chapter": 7, "verseStart": 1, "verseEnd": 10 }, "summary": "유대 장로들의 중보·우리 회당을 지은 자. 백부장 자신은 친구를 통해 \"오시지 마옵소서\"라 청함." }
+          ]
+        },
+        {
+          "id": "5.5",
+          "title": "나인 성 과부의 아들",
+          "period": "AD 28년경",
+          "places": [{ "id": "나인" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 7, "verseStart": 11, "verseEnd": 17 },
+              "summary": "성문 앞에서 상여를 멈춰 세우심. \"청년아 일어나라\". 큰 선지자가 일어났다는 입소문." }
+          ]
+        },
+        {
+          "id": "5.6",
+          "title": "세례 요한의 사자들과 회개치 않는 도시들의 화",
+          "period": "AD 28년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 11, "verseStart": 2, "verseEnd": 30 },
+              "summary": "옥중의 요한이 \"오실 그이가 당신이오니이까\". 고라신·벳새다·가버나움에 화. \"수고하고 무거운 짐 진 자들아 다 내게로 오라\"." },
+            { "gospel": "luke", "ref": { "chapter": 7, "verseStart": 18, "verseEnd": 35 },
+              "summary": "요한의 질문에 대한 답으로 사 35·61장 표적을 가리키심. \"여자가 낳은 자 중에 요한보다 큰 이가 없도다\"." }
+          ]
+        },
+        {
+          "id": "5.7",
+          "title": "향유 부은 죄인 여인 (시몬의 집)",
+          "period": "AD 28년경",
+          "places": [{ "id": "갈릴리", "detail": "바리새인 시몬의 집" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 7, "verseStart": 36, "verseEnd": 50 },
+              "summary": "한 죄인된 여자가 눈물로 발을 적시고 머리털로 닦고 향유로 부음. 두 빚진 자의 비유. \"이 여자가 ... 사랑함이 많음이라\"." }
+          ],
+          "comparison": "[[life-of-jesus#8.1 (토) 베다니 도착과 향유 부음|8.1 베다니의 향유]]와 자주 혼동되나 별개 사건으로 보는 것이 통설. 차이: 시점(갈릴리 사역 중기 vs 수난주간 직전), 시몬의 정체(바리새인 vs \"나병환자\"), 여인(죄인된 여인 vs 마리아), 신학적 강조(용서받은 사랑 vs 매장 준비)."
+        },
+        {
+          "id": "5.8",
+          "title": "갈릴리 두 번째 순회",
+          "period": "AD 28년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 8, "verseStart": 1, "verseEnd": 3 },
+              "summary": "막달라 마리아·요안나·수산나 등 여인들이 자기 소유로 섬김. 12제자와 동행." }
+          ]
+        },
+        {
+          "id": "5.9",
+          "title": "바알세불 논쟁과 표적 요구",
+          "period": "AD 28년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 12, "verseStart": 22, "verseEnd": 45 }, "summary": "성령 모독에 대한 경고. 요나의 표적." },
+            { "gospel": "mark", "ref": { "chapter": 3, "verseStart": 20, "verseEnd": 30 }, "summary": "친족들이 \"미쳤다\"고 함. 강한 자를 결박한 후에야 그 집을 늑탈." },
+            { "gospel": "luke", "ref": { "chapter": 11, "verseStart": 14, "verseEnd": 32 }, "summary": "다른 시기·장소에서의 유사 강화일 가능성도 있음." }
+          ]
+        },
+        {
+          "id": "5.10",
+          "title": "예수의 어머니와 형제들",
+          "period": "AD 28년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 12, "verseStart": 46, "verseEnd": 50 }, "summary": "\"누가 내 모친이며 내 동생들이냐\". 영적 가족의 재정의." },
+            { "gospel": "mark", "ref": { "chapter": 3, "verseStart": 31, "verseEnd": 35 }, "summary": "동일." },
+            { "gospel": "luke", "ref": { "chapter": 8, "verseStart": 19, "verseEnd": 21 }, "summary": "\"하나님의 말씀을 듣고 행하는 이 사람들\"." }
+          ]
+        },
+        {
+          "id": "5.11",
+          "title": "비유 강화 — 천국 비유들",
+          "period": "AD 28년경",
+          "places": [{ "id": "갈릴리 호수", "detail": "배 위에서 가르치심" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 13, "verseStart": 1, "verseEnd": 53 },
+              "summary": "씨 뿌리는 자 / 가라지 / 겨자씨 / 누룩 / 감추인 보화 / 좋은 진주 / 그물." },
+            { "gospel": "mark", "ref": { "chapter": 4, "verseStart": 1, "verseEnd": 34 },
+              "summary": "씨 뿌리는 자 / 스스로 자라는 씨 / 겨자씨 — 비유로만 말씀하시고 제자에게 따로 풀어 줌." },
+            { "gospel": "luke", "ref": { "chapter": 8, "verseStart": 4, "verseEnd": 18 },
+              "summary": "씨 뿌리는 자와 등불 비유." }
+          ]
+        },
+        {
+          "id": "5.12",
+          "title": "갈릴리 풍랑을 잔잔케 하심",
+          "period": "AD 28년경 (그날 저녁)",
+          "places": [{ "id": "갈릴리 호수" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 8, "verseStart": 23, "verseEnd": 27 }, "summary": "\"바람과 바다가 그에게 순종하는도다\"." },
+            { "gospel": "mark", "ref": { "chapter": 4, "verseStart": 35, "verseEnd": 41 }, "summary": "선미에서 베개 베고 주무심." },
+            { "gospel": "luke", "ref": { "chapter": 8, "verseStart": 22, "verseEnd": 25 }, "summary": "\"너희 믿음이 어디 있느냐\"." }
+          ]
+        },
+        {
+          "id": "5.13",
+          "title": "거라사 광인",
+          "period": "AD 28년경",
+          "places": [{ "id": "거라사", "detail": "갈릴리 호수 동편, 데가볼리 지역" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 8, "verseStart": 28, "verseEnd": 34 }, "summary": "두 명의 광인. 돼지 떼와 함께 절벽으로." },
+            { "gospel": "mark", "ref": { "chapter": 5, "verseStart": 1, "verseEnd": 20 }, "summary": "이름이 \"군대\"인 더러운 귀신. 회복된 자가 데가볼리에 전파." },
+            { "gospel": "luke", "ref": { "chapter": 8, "verseStart": 26, "verseEnd": 39 }, "summary": "마가와 평행." }
+          ],
+          "comparison": "마태는 둘, 마가·누가는 한 사람에 초점. 본문이 가리키는 지명도 거라사·가다라·게르게사 사본 변이가 있음."
+        },
+        {
+          "id": "5.14",
+          "title": "야이로의 딸과 혈루증 여인",
+          "period": "AD 28년경",
+          "places": [{ "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 9, "verseStart": 18, "verseEnd": 26 }, "summary": "축약된 서술 — 회당장의 딸이 이미 죽음." },
+            { "gospel": "mark", "ref": { "chapter": 5, "verseStart": 21, "verseEnd": 43 }, "summary": "\"달리다굼\". 12살 소녀. 12년 혈루증." },
+            { "gospel": "luke", "ref": { "chapter": 8, "verseStart": 40, "verseEnd": 56 }, "summary": "베드로·요한·야고보만 안방으로 데려가심." }
+          ]
+        },
+        {
+          "id": "5.15",
+          "title": "두 소경과 벙어리 귀신",
+          "period": "AD 28년경",
+          "places": [{ "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 9, "verseStart": 27, "verseEnd": 34 },
+              "summary": "\"다윗의 자손이여\"라 부르며 따라옴. 벙어리 귀신 축출 후 \"이스라엘 가운데서 이런 일을 본 적이 없다\"는 반응과 \"귀신의 왕을 빙자한다\"는 비방." }
+          ]
+        },
+        {
+          "id": "5.16",
+          "title": "나사렛 두 번째 배척",
+          "period": "AD 28년경",
+          "places": [{ "id": "나사렛", "detail": "회당" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 13, "verseStart": 54, "verseEnd": 58 }, "summary": "\"선지자가 자기 고향과 자기 집 외에서는 존경을 받지 않음이 없느니라\". 많은 능력을 행하지 않으심." },
+            { "gospel": "mark", "ref": { "chapter": 6, "verseStart": 1, "verseEnd": 6 }, "summary": "그들의 믿지 않음을 이상히 여기심." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "part6",
+      "number": 6,
+      "title": "갈릴리 사역의 절정",
+      "period": "AD 29",
+      "events": [
+        {
+          "id": "6.1",
+          "title": "12제자 파송",
+          "period": "AD 29년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 9, "verseStart": 35, "verseEnd": 38 }, "title": "추수꾼 부탁",
+              "summary": "추수할 것은 많되 일꾼이 적으니." },
+            { "gospel": "matthew", "ref": { "chapter": 10, "verseStart": 1, "verseEnd": 42 }, "title": "파송 강화",
+              "summary": "지팡이 외에 가진 것 없이 / 핍박 예고 / 가족 갈라짐 / 자기 십자가." },
+            { "gospel": "mark", "ref": { "chapter": 6, "verseStart": 6, "verseEnd": 13 },
+              "summary": "둘씩 짝지어 보내심. 회개를 전파하고 많은 귀신을 쫓아냄." },
+            { "gospel": "luke", "ref": { "chapter": 9, "verseStart": 1, "verseEnd": 6 },
+              "summary": "권능과 권세를 주심." }
+          ]
+        },
+        {
+          "id": "6.2",
+          "title": "세례 요한의 죽음",
+          "period": "AD 29년경",
+          "places": [{ "id": "마케루스" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 14, "verseStart": 1, "verseEnd": 12 }, "summary": "헤로디아의 딸의 춤과 요한의 머리." },
+            { "gospel": "mark", "ref": { "chapter": 6, "verseStart": 14, "verseEnd": 29 }, "summary": "헤롯이 \"내가 목 벤 요한이 살아났다\"고 두려워함." },
+            { "gospel": "luke", "ref": { "chapter": 9, "verseStart": 7, "verseEnd": 9 }, "summary": "예수의 정체에 대한 헤롯의 호기심." }
+          ]
+        },
+        {
+          "id": "6.3",
+          "title": "오천 명을 먹이심",
+          "period": "AD 29년 봄 (유월절 직전, 요6:4)",
+          "places": [{ "id": "벳새다", "detail": "벳새다 쪽 한적한 곳" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 14, "verseStart": 13, "verseEnd": 21 }, "summary": "남자 5천 명 외에 여자와 어린이." },
+            { "gospel": "mark", "ref": { "chapter": 6, "verseStart": 30, "verseEnd": 44 }, "summary": "푸른 잔디 위, 100명·50명씩 떼를 짓게 하심." },
+            { "gospel": "luke", "ref": { "chapter": 9, "verseStart": 10, "verseEnd": 17 }, "summary": "12 광주리." },
+            { "gospel": "john", "ref": { "chapter": 6, "verseStart": 1, "verseEnd": 15 }, "summary": "보리떡 다섯과 물고기 둘 — 한 아이의 도시락. 무리가 임금을 삼으려 함." }
+          ],
+          "comparison": "네 복음서 모두 기록 — 부활을 제외하면 유일한 사건. 광야에서 만나를 먹이심에 대응되는 새 출애굽의 표적."
+        },
+        {
+          "id": "6.4",
+          "title": "물 위를 걸으심",
+          "period": "AD 29년 봄 (그날 밤)",
+          "places": [{ "id": "갈릴리 호수" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 14, "verseStart": 22, "verseEnd": 33 }, "summary": "베드로도 물 위를 걷다 빠짐. \"믿음이 적은 자여\"." },
+            { "gospel": "mark", "ref": { "chapter": 6, "verseStart": 45, "verseEnd": 52 }, "summary": "\"바람을 거스르고\". 제자들의 마음이 둔하여졌더라." },
+            { "gospel": "john", "ref": { "chapter": 6, "verseStart": 16, "verseEnd": 21 }, "summary": "\"내니 두려워 말라\" — 출 3:14을 환기시키는 자기 동일시." }
+          ],
+          "comparison": "마태만 베드로가 물 위에서 걷다 빠지는 장면을 더해 \"믿음이 적은 자여\"의 가르침을 끌어냄. 마가는 \"바람을 거스르고\"의 분투와 \"제자들의 마음이 둔하여졌더라\"의 영적 둔감을 강조. 요한은 \"내니 두려워 말라\"로 자기 동일시(에고 에이미)를 부각. 누가는 이 사건을 생략."
+        },
+        {
+          "id": "6.5",
+          "title": "생명의 떡 강화",
+          "period": "AD 29년 봄",
+          "places": [{ "id": "가버나움", "detail": "회당" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 6, "verseStart": 22, "verseEnd": 71 },
+              "summary": "\"내가 곧 생명의 떡이라\". 살을 먹고 피를 마시라는 표현에 많은 제자가 떠남. 12에게 \"너희도 가려느냐\" — 베드로의 고백 첫 형태." }
+          ]
+        },
+        {
+          "id": "6.6",
+          "title": "장로들의 유전 / 정결 논쟁",
+          "period": "AD 29년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 15, "verseStart": 1, "verseEnd": 20 }, "summary": "사 29:13 인용. \"입에 들어가는 것이 사람을 더럽게 하는 것이 아니라\"." },
+            { "gospel": "mark", "ref": { "chapter": 7, "verseStart": 1, "verseEnd": 23 }, "summary": "\"이러므로 모든 음식물을 깨끗하다 하시니라\" — 마가의 신학적 주석." }
+          ]
+        },
+        {
+          "id": "6.7",
+          "title": "수로보니게 여인의 딸",
+          "period": "AD 29년경",
+          "places": [{ "id": "두로" }, { "id": "시돈" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 15, "verseStart": 21, "verseEnd": 28 }, "summary": "\"개들도 그 주인의 상에서 떨어지는 부스러기를 먹나이다\". \"여자여 네 믿음이 크도다\"." },
+            { "gospel": "mark", "ref": { "chapter": 7, "verseStart": 24, "verseEnd": 30 }, "summary": "여자가 헬라인이요 수로보니게 족속." }
+          ]
+        },
+        {
+          "id": "6.8",
+          "title": "데가볼리의 귀머거리와 사천 명을 먹이심",
+          "period": "AD 29년경",
+          "places": [{ "id": "데가볼리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 15, "verseStart": 29, "verseEnd": 39 }, "summary": "사천 명 / 일곱 광주리." },
+            { "gospel": "mark", "ref": { "chapter": 7, "verseStart": 31, "verseEnd": 37 }, "title": "에바다",
+              "summary": "귀먹고 어눌한 자의 혀에 손가락을 대시며 \"에바다\"(열려라)." },
+            { "gospel": "mark", "ref": { "chapter": 8, "verseStart": 1, "verseEnd": 10 }, "title": "사천 명",
+              "summary": "이방 지역에서의 두 번째 급식 표적." }
+          ]
+        },
+        {
+          "id": "6.9",
+          "title": "표적 요구와 누룩 경고",
+          "period": "AD 29년경",
+          "places": [{ "id": "갈릴리 호수" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 16, "verseStart": 1, "verseEnd": 12 }, "summary": "요나의 표적 외에는 보일 표적이 없으리라. 바리새인·사두개인의 누룩을 주의하라." },
+            { "gospel": "mark", "ref": { "chapter": 8, "verseStart": 11, "verseEnd": 21 }, "summary": "헤롯의 누룩 — 광주리 수를 잊지 않으신 예수의 책망." }
+          ]
+        },
+        {
+          "id": "6.10",
+          "title": "벳새다의 소경",
+          "period": "AD 29년경",
+          "places": [{ "id": "벳새다" }],
+          "scriptures": [
+            { "gospel": "mark", "ref": { "chapter": 8, "verseStart": 22, "verseEnd": 26 },
+              "summary": "침을 발라 두 단계로 회복시키심 — 점진적 치유의 유일한 예." }
+          ]
+        },
+        {
+          "id": "6.11",
+          "title": "베드로의 신앙 고백",
+          "period": "AD 29년경",
+          "places": [{ "id": "가이사랴 빌립보" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 16, "verseStart": 13, "verseEnd": 20 },
+              "summary": "\"주는 그리스도시요 살아 계신 하나님의 아들이시니이다\". \"이 반석 위에 내 교회를 세우리니\". 천국 열쇠." },
+            { "gospel": "mark", "ref": { "chapter": 8, "verseStart": 27, "verseEnd": 30 }, "summary": "\"주는 그리스도시니이다\" — 간결한 형태." },
+            { "gospel": "luke", "ref": { "chapter": 9, "verseStart": 18, "verseEnd": 21 }, "summary": "기도 중에 물으심." }
+          ]
+        },
+        {
+          "id": "6.12",
+          "title": "첫 번째 수난 예고",
+          "period": "AD 29년경",
+          "places": [{ "id": "가이사랴 빌립보" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 16, "verseStart": 21, "verseEnd": 28 }, "summary": "\"사단아 내 뒤로 물러가라\". 자기 십자가." },
+            { "gospel": "mark", "ref": { "chapter": 8, "verseStart": 31, "verseEnd": 38 }, "summary": "\"인자가 ... 많은 고난을 받고 ... 죽임을 당하고 사흘 만에 살아나야 할 것을\"." },
+            { "gospel": "luke", "ref": { "chapter": 9, "verseStart": 22, "verseEnd": 27 }, "summary": "\"날마다\" 제 십자가를 지고." }
+          ]
+        },
+        {
+          "id": "6.13",
+          "title": "변화산",
+          "period": "AD 29년경 (6일 / 8일 후)",
+          "places": [{ "id": "변화산", "detail": "전승은 다볼산, 학문은 헐몬산 다수" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 17, "verseStart": 1, "verseEnd": 13 }, "summary": "모세와 엘리야와 함께 말씀. \"이는 내 사랑하는 아들이요 ... 그의 말을 들으라\"." },
+            { "gospel": "mark", "ref": { "chapter": 9, "verseStart": 2, "verseEnd": 13 }, "summary": "그 의복이 광채가 나며 세상에서 빨래하는 자가 그렇게 희게 할 수 없을 만큼." },
+            { "gospel": "luke", "ref": { "chapter": 9, "verseStart": 28, "verseEnd": 36 }, "summary": "기도하실 때 변형됨. 모세·엘리야와 \"별세\"(엑소도스)에 대한 말씀." }
+          ]
+        },
+        {
+          "id": "6.14",
+          "title": "귀신 들린 소년",
+          "period": "AD 29년경 (변화산에서 내려옴)",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 17, "verseStart": 14, "verseEnd": 21 }, "summary": "\"너희 믿음이 적은 까닭이니라\"." },
+            { "gospel": "mark", "ref": { "chapter": 9, "verseStart": 14, "verseEnd": 29 }, "summary": "\"내가 믿나이다 나의 믿음 없는 것을 도와 주소서\"." },
+            { "gospel": "luke", "ref": { "chapter": 9, "verseStart": 37, "verseEnd": 43 }, "summary": "외아들이라는 누가 특유의 강조." }
+          ]
+        },
+        {
+          "id": "6.15",
+          "title": "두 번째 수난 예고",
+          "period": "AD 29년경",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 17, "verseStart": 22, "verseEnd": 23 }, "summary": "제자들이 심히 근심." },
+            { "gospel": "mark", "ref": { "chapter": 9, "verseStart": 30, "verseEnd": 32 }, "summary": "묻기를 두려워 함." },
+            { "gospel": "luke", "ref": { "chapter": 9, "verseStart": 43, "verseEnd": 45 }, "summary": "이 말씀이 감추어져 깨닫지 못함." }
+          ]
+        },
+        {
+          "id": "6.16",
+          "title": "성전세와 물고기",
+          "period": "AD 29년경",
+          "places": [{ "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 17, "verseStart": 24, "verseEnd": 27 },
+              "summary": "성전세를 위해 물고기 입에서 한 세겔. 자녀는 자유로우나 시험에 들지 않게 하려 함." }
+          ]
+        },
+        {
+          "id": "6.17",
+          "title": "누가 크냐 / 용서의 가르침",
+          "period": "AD 29년경",
+          "places": [{ "id": "가버나움" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 18, "verseStart": 1, "verseEnd": 35 }, "summary": "어린아이같이 / 잃은 양 / 형제의 죄 / 일만 달란트 빚진 자." },
+            { "gospel": "mark", "ref": { "chapter": 9, "verseStart": 33, "verseEnd": 50 }, "summary": "그들 중에 어린아이를 세워 안으심. \"우리를 반대하지 않는 자는 우리를 위하는 자\"." },
+            { "gospel": "luke", "ref": { "chapter": 9, "verseStart": 46, "verseEnd": 50 }, "summary": "마가와 평행 — 짧게." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "part7",
+      "number": 7,
+      "title": "유대·베레아 사역",
+      "period": "AD 29 ~ 30",
+      "events": [
+        {
+          "id": "7.1",
+          "title": "예루살렘을 향한 출발 (감 받음을 위한 결단)",
+          "period": "AD 29년 가을",
+          "places": [{ "id": "갈릴리" }, { "id": "사마리아" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 9, "verseStart": 51, "verseEnd": 62 }, "summary": "예루살렘을 향하여 굳게 결심. 사마리아 마을의 거절. 세 사람의 어설픈 결심." },
+            { "gospel": "john", "ref": { "chapter": 7, "verseStart": 1, "verseEnd": 10 }, "summary": "형제들의 반신반의 — 비밀히 예루살렘으로 올라감." }
+          ]
+        },
+        {
+          "id": "7.2",
+          "title": "초막절 가르침",
+          "period": "AD 29년 가을 (티슈리 / 9~10월)",
+          "places": [{ "id": "예루살렘", "detail": "성전" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 7, "verseStart": 11, "verseEnd": 52 },
+              "summary": "절기 중간에 올라가 가르치심. \"명절 끝날 곧 큰 날에 ... 누구든지 목마르거든 내게로 와서 마시라\". 무리의 분열과 관원들의 잡으려는 시도." }
+          ]
+        },
+        {
+          "id": "7.3",
+          "title": "간음한 여인",
+          "period": "AD 29년 가을",
+          "places": [{ "id": "예루살렘", "detail": "성전" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 7, "verseStart": 53, "verseEnd": 53 }, "title": "요7:53-8:11",
+              "summary": "\"너희 중에 죄 없는 자가 먼저 돌로 치라\". 본문은 초기 사본들에서 빠져 있어 사본학적 논의가 있으나 교회 전승에서 일찍부터 존중되어 옴." }
+          ]
+        },
+        {
+          "id": "7.4",
+          "title": "세상의 빛 강화",
+          "period": "AD 29년 가을",
+          "places": [{ "id": "예루살렘", "detail": "성전" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 8, "verseStart": 12, "verseEnd": 59 },
+              "summary": "\"나는 세상의 빛이니\". 아브라함과의 대결: \"아브라함이 나기 전부터 내가 있느니라\" — 출 3:14의 자기 동일시. 돌로 치려 함." }
+          ]
+        },
+        {
+          "id": "7.5",
+          "title": "날 때부터 소경된 자",
+          "period": "AD 29년 가을",
+          "places": [{ "id": "예루살렘", "detail": "실로암 못" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 9, "verseStart": 1, "verseEnd": 41 },
+              "summary": "흙을 침으로 이겨 발라 실로암에서 씻게 하심. \"이 사람을 위하여 ... 하나님의 하시는 일을 나타내고자 함\". 회당에서 출교되는 자에게 자신을 \"인자\"로 계시." }
+          ]
+        },
+        {
+          "id": "7.6",
+          "title": "선한 목자 강화",
+          "period": "AD 29년 가을",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 10, "verseStart": 1, "verseEnd": 21 },
+              "summary": "\"나는 선한 목자라\". 양을 위해 목숨을 버림. \"이 우리에 들지 아니한 다른 양들이 있어\" — 이방 선교의 예고." }
+          ]
+        },
+        {
+          "id": "7.7",
+          "title": "70인 파송",
+          "period": "AD 29년 가을",
+          "places": [{ "id": "유대" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 10, "verseStart": 1, "verseEnd": 24 },
+              "summary": "둘씩 짝지어 70명을 보내심. 돌아온 자들의 보고. \"사단이 하늘로서 번개같이 떨어지는 것을\". 너희 이름이 하늘에 기록된 것으로 기뻐하라." }
+          ]
+        },
+        {
+          "id": "7.8",
+          "title": "선한 사마리아인 비유",
+          "period": "AD 29년 가을",
+          "places": [{ "id": "유대" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 10, "verseStart": 25, "verseEnd": 37 },
+              "summary": "\"내 이웃이 누구니이까\". 여리고로 내려가는 길의 강도. 제사장·레위인의 무관심과 사마리아인의 자비." }
+          ]
+        },
+        {
+          "id": "7.9",
+          "title": "마르다와 마리아",
+          "period": "AD 29년 가을",
+          "places": [{ "id": "베다니" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 10, "verseStart": 38, "verseEnd": 42 },
+              "summary": "\"마리아는 이 좋은 편을 택하였으니\". 일과 들음의 긴장." }
+          ]
+        },
+        {
+          "id": "7.10",
+          "title": "주기도와 기도 가르침",
+          "period": "AD 29년 가을",
+          "places": [{ "id": "유대" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 11, "verseStart": 1, "verseEnd": 13 },
+              "summary": "\"우리에게도 기도를 가르쳐 주옵소서\". 한밤중에 떡을 빌리는 친구. 구하라·찾으라·두드리라." }
+          ]
+        },
+        {
+          "id": "7.11",
+          "title": "수전절 강화",
+          "period": "AD 29년 12월경 (기슬르)",
+          "places": [{ "id": "예루살렘", "detail": "성전 솔로몬 행각" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 10, "verseStart": 22, "verseEnd": 39 },
+              "summary": "\"나와 아버지는 하나이니라\". 돌로 치려 하니 신성모독이라며. \"내 양은 내 음성을 들으며 ... 영생을 주노니\"." }
+          ]
+        },
+        {
+          "id": "7.12",
+          "title": "베레아 사역 — 비유들과 가르침",
+          "period": "AD 30년 초",
+          "places": [{ "id": "베레아", "detail": "요단 동편" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 13, "verseStart": 22, "verseEnd": 35 }, "summary": "좁은 문 / 헤롯에 대한 답(\"가서 그 여우에게 이르되\") / 예루살렘을 위한 탄식." },
+            { "gospel": "luke", "ref": { "chapter": 14, "verseStart": 1, "verseEnd": 35 }, "summary": "안식일 만찬 / 큰 잔치 비유 / 제자도의 대가." },
+            { "gospel": "luke", "ref": { "chapter": 15, "verseStart": 1, "verseEnd": 32 }, "summary": "잃은 양 / 잃은 드라크마 / 잃은 아들." },
+            { "gospel": "luke", "ref": { "chapter": 16, "verseStart": 1, "verseEnd": 31 }, "summary": "불의한 청지기 / 부자와 나사로." },
+            { "gospel": "luke", "ref": { "chapter": 17, "verseStart": 1, "verseEnd": 10 }, "summary": "용서 / 겨자씨 믿음 / 무익한 종." }
+          ]
+        },
+        {
+          "id": "7.13",
+          "title": "나사로의 부활",
+          "period": "AD 30년 봄",
+          "places": [{ "id": "베다니" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 11, "verseStart": 1, "verseEnd": 44 },
+              "summary": "\"나는 부활이요 생명이니\". \"예수께서 눈물을 흘리시더라\". 무덤에 있은 지 나흘. \"나사로야 나오라\"." }
+          ]
+        },
+        {
+          "id": "7.14",
+          "title": "산헤드린의 음모와 에브라임 은거",
+          "period": "AD 30년 봄",
+          "places": [{ "id": "예루살렘" }, { "id": "에브라임" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 11, "verseStart": 45, "verseEnd": 57 },
+              "summary": "가야바의 \"한 사람이 백성을 위하여 죽는 것\". 광야에 가까운 동네 에브라임에 잠시 은거." }
+          ]
+        },
+        {
+          "id": "7.15",
+          "title": "열 명의 문둥병자",
+          "period": "AD 30년 봄",
+          "places": [{ "id": "사마리아", "detail": "사마리아와 갈릴리 경계" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 17, "verseStart": 11, "verseEnd": 19 },
+              "summary": "한 사람만이 돌아와 영광을 돌림 — 사마리아인. \"그 아홉은 어디 있느냐\"." }
+          ]
+        },
+        {
+          "id": "7.16",
+          "title": "이혼 논쟁과 어린아이 축복",
+          "period": "AD 30년 봄",
+          "places": [{ "id": "베레아" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 19, "verseStart": 1, "verseEnd": 15 }, "summary": "처음부터는 그렇지 아니하니라. \"하나님이 짝지어 주신 것\"." },
+            { "gospel": "mark", "ref": { "chapter": 10, "verseStart": 1, "verseEnd": 16 }, "summary": "어린아이들을 안고 안수하시며 축복." },
+            { "gospel": "luke", "ref": { "chapter": 18, "verseStart": 15, "verseEnd": 17 }, "summary": "어린아이 축복만 기록." }
+          ]
+        },
+        {
+          "id": "7.17",
+          "title": "부자 청년 관원",
+          "period": "AD 30년 봄",
+          "places": [{ "id": "베레아" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 19, "verseStart": 16, "verseEnd": 30 }, "summary": "낙타와 바늘귀. 처음 된 자가 나중 됨." },
+            { "gospel": "mark", "ref": { "chapter": 10, "verseStart": 17, "verseEnd": 31 }, "summary": "\"예수께서 그를 보시고 사랑하사\"." },
+            { "gospel": "luke", "ref": { "chapter": 18, "verseStart": 18, "verseEnd": 30 }, "summary": "근심하며 떠남." }
+          ]
+        },
+        {
+          "id": "7.18",
+          "title": "포도원 품꾼 비유",
+          "period": "AD 30년 봄",
+          "places": [{ "id": "베레아" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 20, "verseStart": 1, "verseEnd": 16 },
+              "summary": "이른 아침·3시·6시·9시·11시에 부르심. 모두에게 한 데나리온. \"나중 된 자로서 먼저 되리라\"." }
+          ]
+        },
+        {
+          "id": "7.19",
+          "title": "세 번째 수난 예고와 야고보·요한의 청",
+          "period": "AD 30년 봄",
+          "places": [{ "id": "베레아", "detail": "예루살렘으로 올라가는 길" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 20, "verseStart": 17, "verseEnd": 28 }, "summary": "어머니를 통한 청. \"잔을 마실 수 있느냐\". 섬기는 자가 큰 자." },
+            { "gospel": "mark", "ref": { "chapter": 10, "verseStart": 32, "verseEnd": 45 }, "summary": "두 사람이 직접 청함. \"인자가 ... 자기 목숨을 많은 사람의 대속물로 주려 함이니라\"." },
+            { "gospel": "luke", "ref": { "chapter": 18, "verseStart": 31, "verseEnd": 34 }, "summary": "수난 예고만 — 야고보·요한 청 생략." }
+          ]
+        },
+        {
+          "id": "7.20",
+          "title": "여리고의 소경 (바디매오)",
+          "period": "AD 30년 봄",
+          "places": [{ "id": "여리고" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 20, "verseStart": 29, "verseEnd": 34 }, "summary": "두 소경의 외침과 회복." },
+            { "gospel": "mark", "ref": { "chapter": 10, "verseStart": 46, "verseEnd": 52 }, "summary": "디매오의 아들 바디매오. \"네 믿음이 너를 구원하였느니라\"." },
+            { "gospel": "luke", "ref": { "chapter": 18, "verseStart": 35, "verseEnd": 43 }, "summary": "\"다윗의 자손이여\"의 메시아적 외침과 즉각적 회복." }
+          ],
+          "comparison": "공관 셋의 차이: ① 인원 — 마태는 둘, 마가·누가는 한 명. ② 마가만 이름(디매오의 아들 바디매오)을 밝힘. ③ 누가는 \"여리고에 들어가실 때\", 마태·마가는 \"떠나실 때\" — 구 여리고(Tell es-Sultan)와 신 여리고(헤롯의 겨울 궁전 도시)가 인접해 있던 1세기 지리를 감안하면 양립 가능."
+        },
+        {
+          "id": "7.21",
+          "title": "삭개오",
+          "period": "AD 30년 봄",
+          "places": [{ "id": "여리고" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 19, "verseStart": 1, "verseEnd": 10 },
+              "summary": "뽕나무 위의 세리장. \"오늘 구원이 이 집에 이르렀으니\". \"인자의 온 것은 잃어버린 자를 찾아 구원하려 함이니라\"." }
+          ]
+        },
+        {
+          "id": "7.22",
+          "title": "므나 비유",
+          "period": "AD 30년 봄",
+          "places": [{ "id": "여리고" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 19, "verseStart": 11, "verseEnd": 28 },
+              "summary": "왕위를 받으러 떠난 귀인. 한 므나씩 받은 열 종. 예루살렘에 가까이 갔을 때 천국이 곧 임하지 않음을 일러두심." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "part8",
+      "number": 8,
+      "title": "수난주간",
+      "period": "AD 30년 니산 (3~4월)",
+      "events": [
+        {
+          "id": "8.1",
+          "title": "(토) 베다니 도착과 향유 부음",
+          "period": "유월절 6일 전 (토요일)",
+          "places": [{ "id": "베다니" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 26, "verseStart": 6, "verseEnd": 13 }, "summary": "여인의 일이 복음과 함께 전파될 것." },
+            { "gospel": "mark", "ref": { "chapter": 14, "verseStart": 3, "verseEnd": 9 }, "summary": "옥합을 깨뜨림 — 삼백 데나리온의 값." },
+            { "gospel": "john", "ref": { "chapter": 11, "verseStart": 55, "verseEnd": 57 }, "title": "절기 임박",
+              "summary": "유월절을 위해 미리 올라온 시골 사람들. 산헤드린의 체포 명령." },
+            { "gospel": "john", "ref": { "chapter": 12, "verseStart": 1, "verseEnd": 11 }, "title": "마리아의 향유",
+              "summary": "마리아가 머리털로 발을 닦음. 유다의 위선." }
+          ],
+          "comparison": "공관 (마·막)은 사건을 수난주간 화요일 위치에 묶어 기록; 요한이 시간 표지를 명확히 함(유월절 엿새 전). 동일 사건이라는 견해가 다수."
+        },
+        {
+          "id": "8.2",
+          "title": "(일) 예루살렘 입성",
+          "period": "종려 주일",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 21, "verseStart": 1, "verseEnd": 11 }, "summary": "어린 나귀와 그 어미 — 슥 9:9 인용." },
+            { "gospel": "mark", "ref": { "chapter": 11, "verseStart": 1, "verseEnd": 11 }, "summary": "성전을 둘러보시고 늦은 시간에 베다니로 나가심." },
+            { "gospel": "luke", "ref": { "chapter": 19, "verseStart": 29, "verseEnd": 44 }, "summary": "도시를 보시며 우심: \"네가 이 날에 평화에 관한 일을 알았더면\"." },
+            { "gospel": "john", "ref": { "chapter": 12, "verseStart": 12, "verseEnd": 19 }, "summary": "종려 가지. 나사로 사건으로 인한 군중의 환호." }
+          ]
+        },
+        {
+          "id": "8.3",
+          "title": "(월) 무화과나무 저주와 두 번째 성전 정화",
+          "period": "월요일",
+          "places": [{ "id": "예루살렘", "detail": "성전" }, { "id": "베다니" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 21, "verseStart": 12, "verseEnd": 22 }, "summary": "성전 정화와 무화과나무가 즉시 마름." },
+            { "gospel": "mark", "ref": { "chapter": 11, "verseStart": 12, "verseEnd": 19 }, "summary": "이틀에 걸쳐 — 월요일 저주, 화요일 시든 것을 확인." },
+            { "gospel": "luke", "ref": { "chapter": 19, "verseStart": 45, "verseEnd": 48 }, "summary": "\"내 집은 기도하는 집이 되리라 ... 너희는 강도의 굴혈을 만들었도다\"." }
+          ]
+        },
+        {
+          "id": "8.4",
+          "title": "(화) 권위 논쟁과 비유들",
+          "period": "화요일 오전",
+          "places": [{ "id": "예루살렘", "detail": "성전" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 21, "verseStart": 23, "verseEnd": 46 }, "summary": "두 아들 / 악한 농부들. \"건축자들의 버린 돌\"." },
+            { "gospel": "matthew", "ref": { "chapter": 22, "verseStart": 1, "verseEnd": 14 }, "title": "혼인 잔치 비유",
+              "summary": "예복 없는 자." },
+            { "gospel": "mark", "ref": { "chapter": 11, "verseStart": 27, "verseEnd": 33 }, "summary": "요한의 세례가 어디로서이뇨." },
+            { "gospel": "mark", "ref": { "chapter": 12, "verseStart": 1, "verseEnd": 12 }, "title": "악한 농부 (막)",
+              "summary": "포도원 주인의 사랑하는 아들." },
+            { "gospel": "luke", "ref": { "chapter": 20, "verseStart": 1, "verseEnd": 19 }, "summary": "공관 평행." }
+          ]
+        },
+        {
+          "id": "8.5",
+          "title": "(화) 세 시험 — 가이사·부활·큰 계명",
+          "period": "화요일 오전",
+          "places": [{ "id": "예루살렘", "detail": "성전" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 22, "verseStart": 15, "verseEnd": 46 }, "summary": "바리새인·사두개인·율법사의 세 시험. \"가이사의 것은 가이사에게\". 다윗의 자손 / 다윗의 주." },
+            { "gospel": "mark", "ref": { "chapter": 12, "verseStart": 13, "verseEnd": 37 }, "summary": "큰 계명 — \"하나님은 한 분이시요 ... 사랑하라\"." },
+            { "gospel": "luke", "ref": { "chapter": 20, "verseStart": 20, "verseEnd": 44 }, "summary": "공관 평행." }
+          ]
+        },
+        {
+          "id": "8.6",
+          "title": "(화) 화 선언 — 서기관과 바리새인",
+          "period": "화요일 오후",
+          "places": [{ "id": "예루살렘", "detail": "성전" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 23, "verseStart": 1, "verseEnd": 39 }, "summary": "일곱 가지 화. \"예루살렘아 예루살렘아 ... 암탉이 그 새끼를 날개 아래에 모음 같이\"." },
+            { "gospel": "mark", "ref": { "chapter": 12, "verseStart": 38, "verseEnd": 44 }, "summary": "긴 옷 입기를 좋아하는 서기관들 / 과부의 두 렙돈." },
+            { "gospel": "luke", "ref": { "chapter": 20, "verseStart": 45, "verseEnd": 47 }, "summary": "서기관 경계." },
+            { "gospel": "luke", "ref": { "chapter": 21, "verseStart": 1, "verseEnd": 4 }, "title": "과부의 두 렙돈",
+              "summary": "생활비 전부를 넣음." }
+          ]
+        },
+        {
+          "id": "8.7",
+          "title": "(화) 헬라인의 방문과 마지막 공개 강화",
+          "period": "화요일",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 12, "verseStart": 20, "verseEnd": 50 },
+              "summary": "헬라인들이 \"예수를 뵈옵고자\". 밀알의 비유. 들리신 자의 약속. 요한이 기록한 마지막 공개 사역." }
+          ]
+        },
+        {
+          "id": "8.8",
+          "title": "(화) 감람산 강화 — 종말과 재림",
+          "period": "화요일 저녁",
+          "places": [{ "id": "감람산" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 24, "verseStart": 1, "verseEnd": 51 }, "summary": "성전의 돌 하나도 돌 위에. 큰 환난. 인자의 임함. 늘 깨어 있으라." },
+            { "gospel": "matthew", "ref": { "chapter": 25, "verseStart": 1, "verseEnd": 46 }, "title": "세 비유",
+              "summary": "열 처녀 / 달란트 / 양과 염소." },
+            { "gospel": "mark", "ref": { "chapter": 13, "verseStart": 1, "verseEnd": 37 }, "summary": "\"그 날과 그 때는 아무도 모르나니\"." },
+            { "gospel": "luke", "ref": { "chapter": 21, "verseStart": 5, "verseEnd": 38 }, "summary": "예루살렘 멸망(AD 70)에 대한 보다 구체적 언급." }
+          ]
+        },
+        {
+          "id": "8.9",
+          "title": "(수) 유다의 음모",
+          "period": "수요일",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 26, "verseStart": 1, "verseEnd": 5 }, "title": "산헤드린의 모의",
+              "summary": "이틀 후 유월절. 가야바의 뜰에 모임." },
+            { "gospel": "matthew", "ref": { "chapter": 26, "verseStart": 14, "verseEnd": 16 }, "title": "유다의 거래",
+              "summary": "은 삼십." },
+            { "gospel": "mark", "ref": { "chapter": 14, "verseStart": 1, "verseEnd": 2 }, "summary": "민란을 두려워 함." },
+            { "gospel": "mark", "ref": { "chapter": 14, "verseStart": 10, "verseEnd": 11 }, "title": "유다의 거래 (막)",
+              "summary": "공관 평행." },
+            { "gospel": "luke", "ref": { "chapter": 22, "verseStart": 1, "verseEnd": 6 }, "summary": "사단이 유다에게 들어감." }
+          ]
+        },
+        {
+          "id": "8.10",
+          "title": "(목) 최후의 만찬 준비와 발 씻기심",
+          "period": "목요일 저녁",
+          "places": [{ "id": "예루살렘", "detail": "다락방" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 26, "verseStart": 17, "verseEnd": 19 }, "summary": "두 제자가 유월절을 예비." },
+            { "gospel": "mark", "ref": { "chapter": 14, "verseStart": 12, "verseEnd": 16 }, "summary": "물 한 동이를 가지고 가는 사람." },
+            { "gospel": "luke", "ref": { "chapter": 22, "verseStart": 7, "verseEnd": 13 }, "summary": "베드로와 요한을 보내심." },
+            { "gospel": "john", "ref": { "chapter": 13, "verseStart": 1, "verseEnd": 20 }, "title": "발 씻기심",
+              "summary": "겉옷을 벗으시고 수건으로 허리를 두르심. \"내가 너희에게 행한 것같이 너희도 행하게 하려 한 것이라\"." }
+          ]
+        },
+        {
+          "id": "8.11",
+          "title": "(목) 최후의 만찬과 성찬 제정",
+          "period": "목요일 저녁",
+          "places": [{ "id": "예루살렘", "detail": "다락방" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 26, "verseStart": 20, "verseEnd": 35 }, "summary": "\"이것은 죄 사함을 얻게 하려고 많은 사람을 위하여 흘리는바 ... 새 언약의 피니라\". 베드로의 부인 예고." },
+            { "gospel": "mark", "ref": { "chapter": 14, "verseStart": 17, "verseEnd": 31 }, "summary": "공관 평행." },
+            { "gospel": "luke", "ref": { "chapter": 22, "verseStart": 14, "verseEnd": 38 }, "summary": "큰 자가 작은 자 같이. 사단이 베드로를 밀 까부르듯 하기를 청구. 칼 두 자루." },
+            { "gospel": "john", "ref": { "chapter": 13, "verseStart": 21, "verseEnd": 38 }, "title": "유다 지목과 새 계명",
+              "summary": "\"내가 떡 한 조각을 적셔다가 주는 자가 그니라\". 새 계명." }
+          ]
+        },
+        {
+          "id": "8.12",
+          "title": "(목) 고별 강화",
+          "period": "목요일 밤 (다락방 → 겟세마네로 가는 길)",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 14, "verseStart": 1, "verseEnd": 31 }, "title": "위로",
+              "summary": "내 아버지 집에 거할 곳이 많도다. 길·진리·생명. 보혜사 약속." },
+            { "gospel": "john", "ref": { "chapter": 15, "verseStart": 1, "verseEnd": 27 }, "title": "포도나무",
+              "summary": "참 포도나무 / 친구 / 세상의 미움." },
+            { "gospel": "john", "ref": { "chapter": 16, "verseStart": 1, "verseEnd": 33 }, "title": "성령의 사역",
+              "summary": "내가 세상을 이기었노라." }
+          ]
+        },
+        {
+          "id": "8.13",
+          "title": "(목) 대제사장적 기도",
+          "period": "목요일 밤",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 17, "verseStart": 1, "verseEnd": 26 },
+              "summary": "자신을 위해 / 제자를 위해 / 후세 모든 신자를 위해. \"그들이 하나가 되어\"." }
+          ]
+        },
+        {
+          "id": "8.14",
+          "title": "(목) 겟세마네",
+          "period": "목요일 밤",
+          "places": [{ "id": "겟세마네", "detail": "감람산 기슭" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 26, "verseStart": 36, "verseEnd": 46 }, "summary": "세 번의 같은 기도. \"내 아버지여 만일 할 만하시거든 이 잔을 내게서 지나가게 하옵소서\"." },
+            { "gospel": "mark", "ref": { "chapter": 14, "verseStart": 32, "verseEnd": 42 }, "summary": "\"아빠 아버지여\"." },
+            { "gospel": "luke", "ref": { "chapter": 22, "verseStart": 39, "verseEnd": 46 }, "summary": "땀이 핏방울 같이 됨. 천사가 힘을 더함." }
+          ]
+        },
+        {
+          "id": "8.15",
+          "title": "(목/금) 체포",
+          "period": "목요일 밤 ~ 금요일 새벽",
+          "places": [{ "id": "겟세마네" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 26, "verseStart": 47, "verseEnd": 56 }, "summary": "유다의 입맞춤. 칼을 든 자가 칼로 망함." },
+            { "gospel": "mark", "ref": { "chapter": 14, "verseStart": 43, "verseEnd": 52 }, "summary": "벗은 몸으로 도망간 청년 — 마가 자신으로 추정." },
+            { "gospel": "luke", "ref": { "chapter": 22, "verseStart": 47, "verseEnd": 53 }, "summary": "종의 귀를 만져 낫게 하심. \"이는 너희 때요 어둠의 권세로다\"." },
+            { "gospel": "john", "ref": { "chapter": 18, "verseStart": 1, "verseEnd": 12 }, "summary": "\"내가 그니라\"에 모두 물러가 땅에 엎드러짐. 베드로가 칼로 친 종의 이름이 말고임을 밝힘." }
+          ]
+        },
+        {
+          "id": "8.16",
+          "title": "(금) 안나스·가야바 심문과 베드로의 부인",
+          "period": "금요일 새벽",
+          "places": [{ "id": "예루살렘", "detail": "안나스의 집 / 가야바의 뜰" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 26, "verseStart": 57, "verseEnd": 75 }, "summary": "거짓 증인 / \"네가 하나님의 아들 그리스도인지 우리에게 말하라\". 세 번 부인 후 닭이 울고 통곡." },
+            { "gospel": "mark", "ref": { "chapter": 14, "verseStart": 53, "verseEnd": 72 }, "summary": "닭이 두 번 운다는 마가 특유의 디테일." },
+            { "gospel": "luke", "ref": { "chapter": 22, "verseStart": 54, "verseEnd": 65 }, "summary": "예수께서 돌이켜 베드로를 보심." },
+            { "gospel": "john", "ref": { "chapter": 18, "verseStart": 13, "verseEnd": 27 }, "summary": "또 다른 제자가 베드로를 들임. 안나스의 신문." }
+          ],
+          "comparison": "공관 셋 모두 베드로의 세 번 부인을 닭 울음으로 마감하지만 디테일이 갈림. 마가만 닭이 두 번 운다고 함(14:30,72). 누가만 예수께서 \"돌이켜 베드로를 보심\"(22:61) — 가장 영적으로 무거운 순간. 요한은 베드로의 부인을 안나스의 신문과 교차 편집해 두 정체성을 나란히 놓음(예수: \"내가 그니라\" / 베드로: \"나는 아니다\")."
+        },
+        {
+          "id": "8.17",
+          "title": "(금) 산헤드린 정식 심리와 유다의 죽음",
+          "period": "금요일 새벽",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 27, "verseStart": 1, "verseEnd": 10 }, "summary": "유다가 은을 도로 갖다 줌. 토기장이의 밭." },
+            { "gospel": "mark", "ref": { "chapter": 15, "verseStart": 1, "verseEnd": 1 }, "summary": "새벽 결의." },
+            { "gospel": "luke", "ref": { "chapter": 22, "verseStart": 66, "verseEnd": 71 }, "summary": "\"네가 하나님의 아들이냐\" — \"너희가 내가 그라고 말하는도다\"." }
+          ]
+        },
+        {
+          "id": "8.18",
+          "title": "(금) 빌라도·헤롯의 심문",
+          "period": "금요일 아침",
+          "places": [{ "id": "예루살렘", "detail": "빌라도 관저 / 헤롯 안디바의 거처" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 27, "verseStart": 11, "verseEnd": 26 }, "summary": "빌라도의 아내의 꿈. 손을 씻음. 바라바와의 대조." },
+            { "gospel": "mark", "ref": { "chapter": 15, "verseStart": 2, "verseEnd": 15 }, "summary": "공관 평행." },
+            { "gospel": "luke", "ref": { "chapter": 23, "verseStart": 1, "verseEnd": 25 }, "summary": "헤롯 안디바에게 보냄 — 그날 빌라도와 헤롯이 친구가 됨." },
+            { "gospel": "john", "ref": { "chapter": 18, "verseStart": 28, "chapterEnd": 19, "verseEnd": 16 },
+              "summary": "\"내 나라는 이 세상에 속한 것이 아니라\". \"진리가 무엇이냐\". \"보라 이 사람이로다\"·\"보라 너희 왕이로다\"." }
+          ]
+        },
+        {
+          "id": "8.19",
+          "title": "(금) 골고다 가는 길",
+          "period": "금요일 오전",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 27, "verseStart": 27, "verseEnd": 32 }, "summary": "구레네 시몬이 십자가를 짐. 가시 면류관과 홍포의 조롱." },
+            { "gospel": "mark", "ref": { "chapter": 15, "verseStart": 16, "verseEnd": 21 }, "summary": "구레네 시몬은 알렉산더와 루포의 아비 — 마가 공동체에 알려진 사람들." },
+            { "gospel": "luke", "ref": { "chapter": 23, "verseStart": 26, "verseEnd": 32 }, "summary": "\"예루살렘의 딸들아 나를 위하여 울지 말고 너희와 너희 자녀를 위하여 울라\"." },
+            { "gospel": "john", "ref": { "chapter": 19, "verseStart": 17, "verseEnd": 17 }, "summary": "자기 십자가를 지고 가심." }
+          ]
+        },
+        {
+          "id": "8.20",
+          "title": "(금) 십자가 처형 — 가상 칠언",
+          "period": "금요일 9시 ~ 오후 3시",
+          "places": [{ "id": "골고다" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 27, "verseStart": 33, "verseEnd": 56 }, "summary": "\"엘리 엘리 라마 사박다니\". 성소 휘장 찢어짐. 백부장의 \"진실로 하나님의 아들이었도다\"." },
+            { "gospel": "mark", "ref": { "chapter": 15, "verseStart": 22, "verseEnd": 41 }, "summary": "\"엘로이 엘로이\". 공관 평행." },
+            { "gospel": "luke", "ref": { "chapter": 23, "verseStart": 33, "verseEnd": 49 }, "summary": "\"아버지여 저들을 사하여 주옵소서\". \"오늘 네가 나와 함께 낙원에 있으리라\". \"아버지여 내 영혼을 부탁하나이다\"." },
+            { "gospel": "john", "ref": { "chapter": 19, "verseStart": 18, "verseEnd": 30 }, "summary": "어머니와 사랑하는 제자에게 \"여자여 보소서 아들이니이다\" / \"보라 네 어머니라\". \"내가 목마르다\". \"다 이루었다\"." }
+          ]
+        },
+        {
+          "id": "8.21",
+          "title": "(금) 매장",
+          "period": "금요일 저녁 (예비일)",
+          "places": [{ "id": "골고다", "detail": "새 무덤" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 27, "verseStart": 57, "verseEnd": 66 }, "summary": "아리마대 요셉이 자기 새 무덤에 안치. 무덤을 인봉하고 파숫꾼을 둠." },
+            { "gospel": "mark", "ref": { "chapter": 15, "verseStart": 42, "verseEnd": 47 }, "summary": "이미 죽었는가 의심하던 빌라도가 백부장에게 물어 확인." },
+            { "gospel": "luke", "ref": { "chapter": 23, "verseStart": 50, "verseEnd": 56 }, "summary": "여인들이 어떻게 안치되었는지 봄. 안식일에는 계명대로 쉼." },
+            { "gospel": "john", "ref": { "chapter": 19, "verseStart": 31, "verseEnd": 42 }, "summary": "니고데모가 몰약과 침향 백 근. 옆구리에서 물과 피." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "part9",
+      "number": 9,
+      "title": "부활과 승천",
+      "period": "AD 30년 봄",
+      "events": [
+        {
+          "id": "9.1",
+          "title": "(일) 빈 무덤",
+          "period": "일요일 새벽",
+          "places": [{ "id": "골고다", "detail": "무덤" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 28, "verseStart": 1, "verseEnd": 15 }, "summary": "큰 지진과 천사. 파숫꾼들의 매수." },
+            { "gospel": "mark", "ref": { "chapter": 16, "verseStart": 1, "verseEnd": 8 }, "summary": "흰 옷 입은 청년. \"가서 그의 제자들과 베드로에게 말하라\"." },
+            { "gospel": "luke", "ref": { "chapter": 24, "verseStart": 1, "verseEnd": 12 }, "summary": "여인들이 향품을 가지고. 두 사람 — 베드로가 무덤에 달려감." },
+            { "gospel": "john", "ref": { "chapter": 20, "verseStart": 1, "verseEnd": 10 }, "summary": "막달라 마리아의 첫 발견. 베드로와 사랑하는 제자의 달리기." }
+          ],
+          "comparison": "여인의 수와 천사의 수에 차이가 있음 — 마: 막달라 마리아와 다른 마리아 / 막: + 살로메 / 눅: 그들과 다른 여러 여자 / 요: 막달라 마리아 단독으로 시작. 천사도 한 명(마·막)과 둘(눅·요)로 갈림. 같은 새벽의 여러 시점·복수 그룹의 방문을 각 복음서가 다른 각도에서 정리한 것으로 보는 것이 통설."
+        },
+        {
+          "id": "9.2",
+          "title": "(일) 막달라 마리아에게 나타나심",
+          "period": "일요일 오전",
+          "places": [{ "id": "골고다", "detail": "무덤가" }],
+          "scriptures": [
+            { "gospel": "mark", "ref": { "chapter": 16, "verseStart": 9, "verseEnd": 11 }, "summary": "\"먼저 막달라 마리아에게\"." },
+            { "gospel": "john", "ref": { "chapter": 20, "verseStart": 11, "verseEnd": 18 }, "summary": "동산지기로 오해. \"마리아야\" — \"랍오니\". \"내 형제들에게 가서\"." }
+          ],
+          "comparison": "막 16:9-20(긴 결미)은 초기 사본 시내·바티칸·일부 시리아 사본에 빠져 있어 후대 추가로 보는 견해가 다수. 그러나 부활 사건의 첫 목격자가 막달라 마리아라는 전승은 요한복음과 일치."
+        },
+        {
+          "id": "9.3",
+          "title": "(일) 다른 여인들에게 나타나심",
+          "period": "일요일 오전",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 28, "verseStart": 9, "verseEnd": 10 },
+              "summary": "여인들이 발을 붙잡고 경배. \"갈릴리로 가라\"." }
+          ]
+        },
+        {
+          "id": "9.4",
+          "title": "(일) 엠마오 두 제자",
+          "period": "일요일 오후",
+          "places": [{ "id": "엠마오" }],
+          "scriptures": [
+            { "gospel": "mark", "ref": { "chapter": 16, "verseStart": 12, "verseEnd": 13 }, "summary": "다른 모양으로." },
+            { "gospel": "luke", "ref": { "chapter": 24, "verseStart": 13, "verseEnd": 35 }, "summary": "모세와 모든 선지자의 글로 자기에 관한 것을 풀어 주심. 떡을 떼시매 눈이 밝아짐." }
+          ]
+        },
+        {
+          "id": "9.5",
+          "title": "(일) 베드로에게 나타나심",
+          "period": "일요일",
+          "places": [{ "id": "예루살렘" }],
+          "scriptures": [
+            { "gospel": "luke", "ref": { "chapter": 24, "verseStart": 34, "verseEnd": 34 },
+              "summary": "\"주께서 과연 살아나시고 시몬에게 나타나셨다\" — 엠마오 두 제자가 돌아왔을 때 열한 명이 전한 단언." }
+          ],
+          "comparison": "복음서 어디에도 베드로 자신과의 만남 장면은 묘사되지 않음 — 누가 24:34와 바울의 부활 전승(고전 15:5)이 그 사건의 발생만 단언적으로 전한다. 베드로의 회복 자체는 [[life-of-jesus#9.8 디베랴 호숫가의 나타나심|9.8 디베랴 호숫가]]에서 \"내 양을 먹이라\" 세 번으로 완성됨."
+        },
+        {
+          "id": "9.6",
+          "title": "(일 저녁) 다락방에서 — 도마 없이",
+          "period": "일요일 저녁",
+          "places": [{ "id": "예루살렘", "detail": "다락방" }],
+          "scriptures": [
+            { "gospel": "mark", "ref": { "chapter": 16, "verseStart": 14, "verseEnd": 14 }, "summary": "그들의 믿지 않음과 마음의 완악함을 꾸짖으심." },
+            { "gospel": "luke", "ref": { "chapter": 24, "verseStart": 36, "verseEnd": 43 }, "summary": "구운 생선 한 토막을 그들 앞에서 잡수심." },
+            { "gospel": "john", "ref": { "chapter": 20, "verseStart": 19, "verseEnd": 25 }, "summary": "\"성령을 받으라\". 죄를 사하면 사하여진다." }
+          ]
+        },
+        {
+          "id": "9.7",
+          "title": "(다음 주일) 도마와 함께",
+          "period": "다음 일요일",
+          "places": [{ "id": "예루살렘", "detail": "다락방" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 20, "verseStart": 26, "verseEnd": 31 },
+              "summary": "\"네 손을 내밀어 내 옆구리에 넣어 보라\". \"나의 주시며 나의 하나님이시니이다\". \"보지 못하고 믿는 자들은 복되도다\"." }
+          ]
+        },
+        {
+          "id": "9.8",
+          "title": "디베랴 호숫가의 나타나심",
+          "period": "부활 후",
+          "places": [{ "id": "갈릴리 호수", "detail": "디베랴 호수" }],
+          "scriptures": [
+            { "gospel": "john", "ref": { "chapter": 21, "verseStart": 1, "verseEnd": 25 },
+              "summary": "153 마리. \"내 양을 먹이라\" 세 번. 베드로의 회복과 미래 예고." }
+          ]
+        },
+        {
+          "id": "9.9",
+          "title": "갈릴리 산의 대위임령",
+          "period": "부활 후",
+          "places": [{ "id": "갈릴리" }],
+          "scriptures": [
+            { "gospel": "matthew", "ref": { "chapter": 28, "verseStart": 16, "verseEnd": 20 },
+              "summary": "\"하늘과 땅의 모든 권세를 내게 주셨으니 ... 모든 족속으로 제자를 삼아 ... 내가 세상 끝날까지 너희와 항상 함께 있으리라\"." }
+          ]
+        },
+        {
+          "id": "9.10",
+          "title": "승천",
+          "period": "부활 후 40일",
+          "places": [{ "id": "감람산", "detail": "베다니까지 인도" }],
+          "scriptures": [
+            { "gospel": "mark", "ref": { "chapter": 16, "verseStart": 19, "verseEnd": 20 }, "summary": "하늘로 올려지사 하나님 우편에 앉으심. 표적이 따름." },
+            { "gospel": "luke", "ref": { "chapter": 24, "verseStart": 44, "verseEnd": 53 }, "summary": "성경을 깨닫게 하심 — 모세·선지자·시편. \"위로부터 능력을 입혀 주실 때까지\". 베다니 앞까지 인도. 큰 기쁨으로 예루살렘에 돌아옴." }
+          ],
+          "comparison": "사도행전 1:1-11이 동일 사건을 더 자세히(40일·구름·두 천사) 기록 — 누가 동일 저자의 두 권."
+        }
+      ]
+    }
+  ]
+}

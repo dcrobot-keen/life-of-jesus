@@ -1,0 +1,33 @@
+/*
+ * AUTO-GENERATED — do not edit. Source: content/timeline-plugin.md
+ * Run: node scripts/build-timeline-css.mjs
+ *
+ * Timelines (Revamped) 플러그인 기본 표시 '-6 BC' / '7 AD' → 'BC 6' / 'AD 7' 로 치환.
+ * 활성화: Obsidian Settings → Appearance → CSS snippets → 'timeline-bc-ad' 토글 ON
+ */
+
+/* 공통: 모든 타임라인 h2 의 원본 텍스트 숨기고 ::before overlay 준비 */
+.timeline-container > h2 {
+  visibility: hidden !important;
+  position: relative !important;
+  min-height: 1.5em !important;
+}
+.timeline-container > h2::before {
+  visibility: visible !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  display: block !important;
+  text-align: inherit !important;
+  font-size: var(--h2-size, 1.5rem) !important;
+  font-weight: var(--h2-weight, 700) !important;
+  color: var(--h2-color, inherit) !important;
+  line-height: var(--h2-line-height, 1.4) !important;
+}
+
+/* 연도별 content 만 따로 정의 */
+.timeline-container[timeline-date^="-00006-"] > h2::before { content: "BC 6" !important; }
+.timeline-container[timeline-date^="-00005-"] > h2::before { content: "BC 5" !important; }
+.timeline-container[timeline-date^="-00004-"] > h2::before { content: "BC 4" !important; }
+.timeline-container[timeline-date^="00007-"] > h2::before { content: "AD 7" !important; }
